@@ -13,7 +13,7 @@
 
 ### Bitácora
 
-[Ver Bitácora](docs/Bitácora.md)
+[Ver Bitácora](Docs/Bitácora.md)
 
 ### Resumen
 
@@ -23,7 +23,7 @@
 
 ### Documentos
 
-* [Reporte Técnico](docs/README.md)
+* [Reporte Técnico](Docs/README.md)
 
 
 
