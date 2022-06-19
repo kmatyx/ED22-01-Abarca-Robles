@@ -7,8 +7,8 @@
 
 **Alumnos:**
 
-* Alumno 01 (Rol)
-* Alumno 02 (Rol)
+* Matías Robles (Encargado de la bitácora)
+* Juan Pablo Abarca (Coordinador)
 
 ## Resumen 
 
