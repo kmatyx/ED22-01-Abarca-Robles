@@ -13,6 +13,7 @@
 ## Resumen 
 
 > El desafío del taller empieza con un sistema que no hemos trabajado con anterioridad, por lo cual tuvimos que hacer nuestra propia investigación más las ayudantías que se nos proporcionaron para entender sobre las bibliotecas de OpenCV en C++ un lenguaje que también empezamos a aprender este semestre.
+
 >El código en si toma imágenes y encierra a las personas detectadas en rectángulos rojos, las cuales se le aplican centroides que van a ser trabajadas con el método HOG para ubicar donde están y donde estarán en la imagen subsecuente. Se trabajará con una línea en medio de la imagen para tener el contador de personas, donde van y su velocidad.
 ## 1. Introducción
 Con la llegada de la IA, el aprendizaje automático y la automatización, la visión por computadora se ha vuelto aún más relevante. En este taller, desarrollamos la experiencia de trabajar con visión por computadora
