@@ -17,9 +17,14 @@
 
 ### Resumen
 
-<Agregar el resumen del reporte técnico>
+Con la llegada de la IA, el aprendizaje automático y la automatización, la visión por computadora se ha vuelto aún más relevante. En este taller, desarrollamos la experiencia de trabajar con visión por computadora
 
-<Colocar alguna imágen en la portada>
+Y queremos compartir nuestra experiencia, específicamente en lo que respecta a la detección de objetos con OpenCV.
+
+Nuestro objetivo es contar el número de personas que han cruzado una línea abstracta en pantalla usando visión por computadora con la biblioteca OpenCV.
+
+
+![portada](Docs/images/tallerimg.jpeg)
 
 ### Documentos
 
