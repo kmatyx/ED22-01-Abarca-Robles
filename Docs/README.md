@@ -12,9 +12,8 @@
 
 ## Resumen 
 
-> Agregar un resumen que describa el trabajo realizado y sus resultados. (Entre 150 y 180 palabras)
-> Más cosas...
-> El resumen indicarlo como cita con el comando `>`
+> El desafío del taller empieza con un sistema que no hemos trabajado con anterioridad, por lo cual tuvimos que hacer nuestra propia investigación más las ayudantías que se nos proporcionaron para entender sobre las bibliotecas de OpenCV en C++ un lenguaje que también empezamos a aprender este semestre.
+El código 
 
 ## 1. Introducción
 
@@ -26,40 +25,33 @@ Las comparaciones deben concretarse con hechos y datos, sin frases ambiguas o t�
 
 ### 1.1 Descripción del problema
 
-Dado el laboratorio describir como se entiende el problema bajo sus propias palabras.
+Se debe lograr detectar y contar personas a traves de imagenes usando OpenCV en C++
 
 ### 1.2 Objetivos 
 
 **Objetivo General**
 
-El fin que se desea llegar. (Comenzar con un verbo: "Construir un sistema...", "Desarrollar un sistema...", etc)
+Construir un sistema que pueda contar todas las personas
+que entren y salgan dentro de una zona previamente determinada. 
 
 **Objetivos específicos**
 
-1. Objetivo 1
-2. Objetivo 2
-3. Objetivos 3
-
-Los objetivos específicos son acciones específicas que son desarrolladas para lograr cumplir el objetivo general, por ejemplo:
-
-1. Investigar  el  estado  del  arte  de  visión  por  computador  y  audio  para  resolver  tareas de  clasificación unimodal y multimodal aplicado  al  problema  de  reconocimiento  de emociones.
-2.  Seleccionar  uno  o  dos  métodos  estudiados  en  el  estado  del  arte  para  la  estimación  de  laemoción utilizando datos unimodales o multimodales.
-3.  Implementar los métodos seleccionados utilizando el lenguaje de programación Python y laslibrerías suministradas por Pytorch.
-4.  Validar  los  resultados  por  medio  bases  de  datos  especializadas  para  el  desarrollo  deaplicaciones basadas en la estimación de la emoción y que incluyan varios modos de atributoscomo: imágenes, sonido y/o texto.
-5.  Proponer  mejoras  a  los  modelos  implementados  para  mejorar  su  desempeño  en  futurasimplementaciones o proyectos de investigación.
-6.  Difundir los resultados en medios científicos nacionales o internacionales.
+1. Investigar el problema propuesto, sea discutiendo el problema, leyendo articulos y consultando sobre el tema
+2. Busqueda y comparacion de metodos para el trabajo
+3. Implementar metodos decididos en el lenguaje de programacion C++ y librerias para el taller
+4. Anotar resultados y mantener al dia el informe en Github
 
 ### 1.3 Solución propuesta
 
-Esbozo de la solución propuesta, se espera que esta vaya evolucionando a medida que se avanza en el proyecto.
+Transformar a las personas detectadas en centroides que puedan ser contadas a una resolucion dada
 
 ## 2. Materiales y métodos
 
 Explicar brevemente como se espera desarrollar el trabajo de implementación.
 
 ### 2.1 Instalación
-
-Describir brevemente las librerías utilizadas para la instalación y programas utilizados para la ejecución del código. (Agregar una sección de anexo para describir como fueron instaladas las librerías de OpenCV y la IDE utilzada para el trabajo)
+-Microsoft Visual Studio es el IDE utilizado para desarrollar el problema en C++
+-OpenCV es una biblioteca libre de visión artificial, nos servira para contar y detectar las personas 
 
 ### 2.2 Diseño 
 
@@ -98,8 +90,11 @@ La primera linea carga el archivo de entrenamiento... etc
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
+*https://opencv.org/releases/
 
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
+*https://visualstudio.microsoft.com/es/
+*https://www.youtube.com/watch?v=Hu7ArOaFm2g
 
 # Referecia
 
