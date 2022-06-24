@@ -14,4 +14,5 @@
 | 22/JUN | OBJ-03    | Trabajo en código | J.P.Abarca      | 1 hora    | 1.5 horas |
 | 23/JUN | OBJ-04    | Trabajo en el informe | M.Robles     | 1 hora    | 3 horas |
 | 23/JUN | OBJ-03    | Trabajo en codigo | J.P.Abarca      | 1.5 horas    | 1.5 horas |
+| 24/JUN | OBJ-04    | Trabajo en el informe | M.Robles     | 1 hora    | 1.5 horas |
 
