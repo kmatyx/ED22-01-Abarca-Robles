@@ -90,15 +90,18 @@ La primera linea carga el archivo de entrenamiento... etc
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
-*https://opencv.org/releases/
+
+https://opencv.org/releases/
 
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
-*https://visualstudio.microsoft.com/es/
-*https://www.youtube.com/watch?v=Hu7ArOaFm2g
+
+https://visualstudio.microsoft.com/es/
+
+https://www.youtube.com/watch?v=Hu7ArOaFm2g
 
 # Referecia
 
 Indicar los libros, páginas web, documentos, etc. Utilizados en el trabajo. Por ejemplo:
 
-1. MONTERO, J.,Metodos matemáticos aplicados a la ganadería.3aed. Sevilla: Ediciones de la pradera,2007.
-2. LVARADO,   J.   P.,¿Qué   debe   contener   un   artículo   científico?.http://www.ie.tec.ac.cr/palvarado/pmwiki/index.php/MSc/Art\%c3\%adculoCient\%c3\%adfico. Fe-cha de acceso:13/Nov/2018
+1. Microsoft Visual Studio https://visualstudio.microsoft.com/es/
+2. OpenCV https://opencv.org
