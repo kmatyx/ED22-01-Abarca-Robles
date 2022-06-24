@@ -43,14 +43,16 @@ que entren y salgan dentro de una zona previamente determinada.
 
 ### 1.3 Solución propuesta
 
-Transformar a las personas detectadas en centroides que puedan ser contadas a una resolucion dada
+Transformar a las personas detectadas en centroides para que puedan ser contadas al atravesar un punto en la cámara en una resolución definida
 
 ## 2. Materiales y métodos
 
-Explicar brevemente como se espera desarrollar el trabajo de implementación.
+Utilizar un video o múltiples imagenes en sucesión a traves de una camara
 
 ### 2.1 Instalación
+
 -Microsoft Visual Studio es el IDE utilizado para desarrollar el problema en C++
+
 -OpenCV es una biblioteca libre de visión artificial, nos servira para contar y detectar las personas 
 
 ### 2.2 Diseño 
@@ -100,8 +102,6 @@ https://visualstudio.microsoft.com/es/
 https://www.youtube.com/watch?v=Hu7ArOaFm2g
 
 # Referecia
-
-Indicar los libros, páginas web, documentos, etc. Utilizados en el trabajo. Por ejemplo:
 
 1. Microsoft Visual Studio https://visualstudio.microsoft.com/es/
 2. OpenCV https://opencv.org
