@@ -69,21 +69,28 @@ Por ejemplo,
 
 El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código para detectar una cara en una imagen se muestra a continuación:
 
-```c++
- 1. faceCascadePath = "./haarcascade_frontalface_default.xml";
- 2. faceCascade.load( faceCascadePath )
- 3. std::vector<Rect> faces;
- 4. faceCascade.detectMultiScale(frameGray, faces);
-
- 5. for ( size_t i = 0; i < faces.size(); i++ )
- 6. {
- 7.  int x1 = faces[i].x;
- 8.  int y1 = faces[i].y;
- 9.  int x2 = faces[i].x + faces[i].width;
-10.  int y2 = faces[i].y + faces[i].height;
-11. }
 ```
-La primera linea carga el archivo de entrenamiento... etc
+   1.-int detectAndDraw(const HOGDescriptor &hog, Mat &img)
+        {
+   2.-  vector<Rect> found, found_filtered;
+   3.-  double time = (double) getTickCount();
+   4.-  hog.detectMultiScale(img, found, 0, Size(8,8), Size(16,16), 1.07, 2);
+   5.-  time = (double) getTickCount() - time;
+   6.-  cout << "tiempo para detectar = " << (time*1000./cv::getTickFrequency()) << " m" << endl;
+   7.-  for(size_t i = 0; i < found.size(); i++ )
+   8.-     {
+   9.-       Rect r = found[i];
+   10.-       size_t j;
+   11.-       for ( j = 0; j < found.size(); j++ )
+   12.-           if ( j != i && (r & found[j]) == r )
+   13.-               break;
+   14.-       if ( j == found.size() )
+   15.-     	  found_filtered.push_back(r);
+   16.-       }
+   17.-      for (size_t i = 0; i < found_filtered.size(); i++)
+         {
+```
+En el presente codigo podemos ver que al detectar un objeto en este caso una figura definida esta se enmarca en un rectangulo la cual va permitir su unificacion para el conteo
 
 ## 3. Resultados obtenidos
 Comenzamos con errores de pathing al principio
