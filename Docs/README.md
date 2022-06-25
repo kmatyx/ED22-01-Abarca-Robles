@@ -116,3 +116,4 @@ https://www.youtube.com/watch?v=Hu7ArOaFm2g
 1. Microsoft Visual Studio https://visualstudio.microsoft.com/es/
 2. OpenCV https://opencv.org
 3. Deteccion de objetos https://www.hackster.io/mjrobot/automatic-vision-object-tracking-5575c4
+4. Model HOG https://github.com/lcit/HOG
