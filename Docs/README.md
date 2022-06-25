@@ -56,7 +56,7 @@ Utilizar un video o múltiples imagenes en sucesión a traves de una camara
 -OpenCV es una biblioteca libre de visión artificial, nos servira para contar y detectar las personas 
 
 ### 2.2 Diseño 
-
+![tallerimg2](images/tallerimg2.Jpeg)
 
 
 ### 2.3 Implementación
