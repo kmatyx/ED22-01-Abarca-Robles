@@ -70,7 +70,7 @@ Por ejemplo,
 El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código para detectar una cara en una imagen se muestra a continuación:
 
 ```
-   1.-int detectAndDraw(const HOGDescriptor &hog, Mat &img)
+   1.-int dDetect(const HOGDescriptor &hog, Mat &img)
         {
    2.-  vector<Rect> found, found_filtered;
    3.-  double time = (double) getTickCount();
