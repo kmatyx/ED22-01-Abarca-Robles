@@ -61,13 +61,12 @@ Utilizar un video o múltiples imagenes en sucesión a traves de una camara
 
 ### 2.3 Implementación
 
-Explicar brevemente algunos aspectos de implementación: Por ejemplo, detector de caras utilizado. Se pueden realizar pequeñas reseñas al código para indicar elementos importantes en el trabajo.
+El principal desafio de implementacion fue el de un objeto poder detectarlo y encerrarlo en un rectangulo en cual fue logrado a traves de un HOG.
 
-Por ejemplo, 
 
-#### Detector de caras
+#### Detector de objetos 
 
-El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código para detectar una cara en una imagen se muestra a continuación:
+El detector de caras objetos utilizado fue HOG, el cual permite demilitar ciertas figuras en la imagen para poder encerrarlas en un rectangulo
 
 ```
    1.-int dDetect(const HOGDescriptor &hog, Mat &img)
@@ -93,9 +92,12 @@ El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código p
 En el presente codigo podemos ver que al detectar un objeto en este caso una figura definida esta se enmarca en un rectangulo la cual va permitir su unificacion para el conteo
 
 ## 3. Resultados obtenidos
-Comenzamos con errores de pathing al principio
+se logro el poder obtener una unificacion de las estrcturas que aparecen en la imagen para poder ser resaltadas.
+Problemas de compilacion con OpenCv dada su extensa libreria 
 
 ## 4. Conclusiones
+El proyecto a prensentado varias dificultades ya que en el lenguaje que se utiliza no ha sido muy usual en el uso y aprendizajes anteriores, pero la logica que se debia implementar estaba un poco mas clara sobretodo con la deteccion de objetos, dado que en proyectos anteriores se ha tenido que implementar algo similar en donde se debia reconocer un objeto a travez de un color seguirlo y dispararle a este, por lo cual se utilizo OpenCv con Python.
+
 
 # Anexos
 
