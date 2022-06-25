@@ -20,7 +20,7 @@ int detectAndDraw(const HOGDescriptor &hog, Mat &img)
     double time = (double) getTickCount();
     hog.detectMultiScale(img, found, 0, Size(8,8), Size(16,16), 1.07, 2);
     time = (double) getTickCount() - time;
-    cout << "tiempo para detectar = " << (time*1000./cv::getTickFrequency()) << " ms" << endl;
+    cout << "tiempo para detectar = " << (time*1000./cv::getTickFrequency()) << " m" << endl;
 
     for(size_t i = 0; i < found.size(); i++ )
     {

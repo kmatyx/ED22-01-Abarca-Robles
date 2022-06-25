@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
 
     HOGDescriptor hog;
     hog.setSVMDetector(HOGDescriptor::getDefaultPeopleDetector());
-    cout << "Built with OpenCV " << CV_VERSION << endl;
+    cout << "ABRIR OPEN CV " << CV_VERSION << endl;
     Mat image;
     ImagenCapture capture;
     	//Abre Imagen 
@@ -27,16 +27,16 @@ int main(int argc, char **argv) {
          //Verificamos imagen 
     if(capture.isOpened())	
     {
-        cout << "Capture is opened" << endl;
+        cout << "IMAGEN ABIERTA" << endl;
         for(;;)
         {
-            capture >> cam_image;
+            capture >> imagen;
         //Comprueba cantidad de iamegen para salir
             if(cam_image.empty())	
                 break;
 	    //Devuelve el numero de personas que se vio en la imagen con la funcion DetectPerson
-            int num_people = detectAndDraw(hog, cam_image);		
-            cout << "People count: " << num_people << endl;
+            int Cant_Personas = detectAndDraw(hog, image);		
+            cout << "People count: " << Cant_Personas << endl;
         
         }
     }
